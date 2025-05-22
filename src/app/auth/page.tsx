@@ -155,7 +155,7 @@ export default function Auth() {
             </Form>
 
             <div className="mt-6 text-center text-sm">
-              <span className="text-gray-600">Don't have an account?</span>
+              <span className="text-gray-600">Don&apos;t have an account?</span>
               <a href="https://wa.me/923425093685" target='_blank' className="text-[#36b2fd] hover:text-blue-600 font-medium transition-colors duration-300">
                 Contact us
               </a>
