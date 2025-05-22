@@ -60,7 +60,7 @@ const testimonials = [
   {
     name: 'John Doe',
     comment:
-      "GadgetApp has revolutionized how I shop for tech. It's so convenient!",
+      "Aamdan has revolutionized how I shop for tech. It's so convenient!",
   },
   {
     name: 'Jane Doe',
@@ -89,7 +89,7 @@ export default function Home() {
   return (
     <div className='min-h-screen'>
       <header className='container mx-auto px-4 py-6 flex justify-between items-center'>
-        <h1 className='text-2xl font-bold'>GadgetApp</h1>
+        <h1 className='text-2xl font-bold'>Aamdan</h1>
       </header>
 
       <main className='container mx-auto px-4 py-12'>
@@ -108,7 +108,7 @@ export default function Home() {
                 </p>
               </MotionWrapper>
               <MotionWrapper delay={0.4}>
-                <Button size='lg' className='bg-[#1BC464] hover:bg-[#1bc464d7]'>
+                <Button size='lg' className='bg-[#35b2fd] hover:bg-[#35b2fdd7]'>
                   Download Now <ChevronRight className='ml-2 h-4 w-4' />
                 </Button>
               </MotionWrapper>
@@ -131,10 +131,10 @@ export default function Home() {
                   width={1331}
                   height={888}
                   src='/app-pics.png'
-                  alt='GadgetApp Screenshot'
+                  alt='Aamdan Screenshot'
                   className='rounded-3xl object-cover shadow-2xl mx-auto h-[500px] w-[250px]'
                 />
-                <Badge className='absolute top-4 right-4 bg-[#1bc464] text-white'>
+                <Badge className='absolute top-4 right-4 bg-[#35b2fd] text-white'>
                   New Release
                 </Badge>
               </motion.div>
@@ -162,16 +162,16 @@ export default function Home() {
         </section>
 
         <section className='mb-24'>
-          <Card className='bg-[#1BC464] text-white'>
+          <Card className='bg-[#35b2fd] text-white'>
             <CardContent className='p-8 text-center'>
               <h3 className='text-3xl font-bold mb-4'>
-                Download GadgetApp Today
+                Download Aamdan Today
               </h3>
               <p className='text-xl mb-6'>
                 Experience the future of gadget shopping at your fingertips.
               </p>
               <div className='flex flex-wrap justify-center gap-4 md:gap-0 md:flex-nowrap md:space-x-4'>
-                <Button size='lg' className='bg-white hover:bg-indigo-100'>
+                <Button size='lg' className='bg-white hover:bg-indigo-100 text-[#35b2fd]'>
                   <Image
                     src='/apple.jpeg'
                     alt='App Store'
@@ -181,7 +181,7 @@ export default function Home() {
                   />
                   App Store
                 </Button>
-                <Button size='lg' className='bg-white hover:bg-indigo-100'>
+                <Button size='lg' className='bg-white hover:bg-indigo-100 text-[#35b2fd]'>
                   <Image
                     src='/google-play.png'
                     alt='Google Play'
@@ -215,7 +215,7 @@ export default function Home() {
                       />
                       <div>
                         <h4 className='font-semibold'>{testimonial.name}</h4>
-                        <div className='flex text-[#1BC464]'>
+                        <div className='flex text-[#35b2fd]'>
                           {[...Array(5)].map((_, i) => (
                             <Star key={i} className='h-4 w-4 fill-current' />
                           ))}
@@ -237,22 +237,20 @@ export default function Home() {
             Ready to Transform Your Gadget Shopping?
           </h3>
           <p className='text-xl  mb-8'>
-            Download GadgetApp now and get 20% off your first in-app purchase!
+            Download Aamdan now and get 20% off your first in-app purchase!
           </p>
-          <Button size='lg' className='bg-[#1BC464] hover:bg-[#1bc464d7]'>
+          <Button size='lg' className='bg-[#35b2fd] hover:bg-[#35b2fdd7]'>
             Get Started <ChevronRight className='ml-2 h-4 w-4' />
           </Button>
         </section>
       </main>
 
-      <footer className='bg-[#1BC464] text-white'>
-        <Link
-          href={`https://www.youtube.com/@codewithlari`}
-          target='_blank'
+      <footer className='bg-[#35b2fd] text-white'>
+        <div
           className='container mx-auto px-4 text-center'
         >
-          <p>@ codewithlari</p>
-        </Link>
+          <p>@ Aamdan</p>
+        </div>
       </footer>
     </div>
   );

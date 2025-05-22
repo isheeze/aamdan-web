@@ -8,8 +8,8 @@ import { ThemeProvider } from '@/providers/theme-provider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'codewithlari rn-shop',
-  description: 'React Native Shop - codewithlari',
+  title: 'Aamdan shop',
+  description: 'Ecommerce Aamdan Shop',
 };
 
 export default function RootLayout({
